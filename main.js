@@ -21,3 +21,18 @@ console.log("Subtraction:", a - b);
 console.log("Multiplication:", a * b);
 console.log("Division:", a / b);
 console.log("Modulus:", a % b);
+// Exercise 2: String Operations
+let firstName = "John";
+let lastName = "Doe";
+
+let fullName = firstName + " " + lastName;
+
+let greeting = `Hello, ${firstName}!`;
+let message = `Your name has ${fullName.length} characters`;
+
+console.log(greeting);
+console.log(message);
+console.log(fullName.toUpperCase());
+console.log(fullName.toLowerCase());
+console.log(firstName.charAt(0));
+console.log(fullName.includes("John"));
